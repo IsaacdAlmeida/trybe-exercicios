@@ -1,0 +1,5 @@
+1. O cliente (navegador) compara o nome do site com o IP através do DNS.
+2. O cliente envia uma requisição para o servidor do site, solicitando a conexão.
+3. O servidor do site, após confirmar a solicitação sinaliza que o cliente pode conectar.
+4. O servidor irá enviar os dados ou códigos do site para o cliente.
+5. O navegador irá juntar tudo e montar o site para exibição do cliente.
