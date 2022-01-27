@@ -1,0 +1,22 @@
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif, Arial, Helvetica, sans-serif; /* é a fonte padrao da máquina do usuário, posso colocar uma fonte reserva separando por , */
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+} /* o EM significa que o tamanho sera x Vezes o tamanho do body, onde x é o número aplicado ex.3em  */
+
+ul {
+    background-color: green;
+}
+
+.bg-color { 
+    background-color: gray;
+} 
