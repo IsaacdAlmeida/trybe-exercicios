@@ -1,17 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML e CSS</title>
+    <style>
+
+        h1 {
+            font-size: 65px;
+            color: orange;
+        }
+
+        ul {
+            background-color: green;
+        }
+
+        .bg-color { 
+            background-color: gray;
+        } 
+
+    </style>
 </head>
 <body>
     <h1>Exercícios 2.3</h1>
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
+    <p class="bg-color"> <!--A classe é representada pelo id class, para referenciar a gente usa o .-->
+        Qual sua cor favorita?
+    </p>
+    <ul class="bg-color"> <!--Posso criar um id para a tag e estilizar somente ela, para referenciar essa id a gente utiliza a # --> 
+        <li>Amarelo</li>
+        <li>Vermelho</li>
+        <li>Marrom</li>
     </ul>
 </body>
 </html>
