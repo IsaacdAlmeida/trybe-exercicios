@@ -1,0 +1,54 @@
+:root {
+    --main-bg-color: #adeee3;
+    --main-text-color: #50723C;
+}
+
+* {
+    background-color: var(--main-bg-color);
+    padding: 0;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.header-nav li{
+    display: inline;
+}
+
+.header-nav a {
+    color: var(--main-text-color);
+
+}
+
+.article-subtitle {
+    font-size: 32px;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+}
+
+.img-one {
+    position: relative;
+
+}
+
+.article-table {
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 20px;
+    }
+
+.img-two {
+    
+}
+
+.article-two p {
+    display: inline;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
