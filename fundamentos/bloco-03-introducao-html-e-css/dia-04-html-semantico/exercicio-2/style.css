@@ -53,3 +53,10 @@ img {
     margin-right: auto;
 
 }
+
+.page-footer {
+    width: 100%;
+    text-align: center;
+    background-color: gray;
+    font-size: 12px;
+}
