@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(253, 251, 251);
+  color: darkslategray;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+#cabecalho {
+  width: 100%;
+  background-color: #00D942;
+  position: fixed;
+  top: 0;
+  text-align: center;
+}
+
+nav {
+  position: relative;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(253, 251, 251);
+}
+
+#foto {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#minha_foto {
+  
+  width: 200px;
+  border: 2px solid #00D942;
+  border-radius: 50%;
+  margin-top: 25px;
+
+}
+
+#meu_nome {
+  display: block;
+  font-size: 50px;
+  text-decoration: none;
+  color: #00D942;
+  margin-top: 15px;  
+}
+
+#meu_nome:hover {
+  color: darkgreen;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 50%;
+  border: 2px solid #00D942;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 20%;
+  float: right;
+  border: 2px solid #00D942;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+main {
+  margin-top: 300px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.titulo-tabela {
+  text-align: center;
+  font-size: 30px;
+  border-top: 2px solid #00D942;
+  padding-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #00D942;
+  border-collapse: collapse;
+  }
+  
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
