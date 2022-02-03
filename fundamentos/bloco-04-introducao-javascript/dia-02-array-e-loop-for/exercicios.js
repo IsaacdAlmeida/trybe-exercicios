@@ -77,3 +77,28 @@ if (oddNumbers == 0){
 */
 
 //Utilizando for, descubra qual o menor valor contido no array e imprima-o;
+
+/* let menorNumber = numbers[0];
+
+for (let index = 0; index < numbers.length; index++){
+    if (numbers[index] < menorNumber) {
+        menorNumber = numbers[index];
+    }
+}
+
+console.log(menorNumber);
+
+*/
+
+let newNumbers = [];
+
+for (let index = 1; index <= 25; index++){
+    newNumbers.push(index);
+}
+ console.log(newNumbers);
+
+ //imprima o resultado da divisão de cada um dos elementos por 2 
+
+ for (nums of newNumbers){
+     console.log(newNumbers[nums]/2);
+ }
