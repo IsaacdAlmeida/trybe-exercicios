@@ -5,7 +5,7 @@ Fórmulas: perimetro = (2base) + (2altura)
 area = base * altura
  */
 
-/* function calculoQuadrilatero(base, altura){
+function calculoQuadrilatero(base, altura){
     let resultadoPerimetro = (2 * base) + (2 * altura);
     let resultadoArea = base * altura;
 
@@ -17,13 +17,13 @@ area = base * altura
     return total;
 };
 
-console.log(calculoQuadrilatero(10, 10));
- */
+calculoQuadrilatero(10, 10));
+
 
 /* Exercício 2 - Crie uma função que, dado um array de números inteiros, retorne a quantidade de números pares e ímpares no formato: { pares: 0, ímpares: 0 }
  */
 
-/* let numeros = [];
+let numeros = [];
 
 for (let index = 1; index <= 20; index += 1){
     numeros.push(index);
@@ -46,8 +46,8 @@ function numbersEvenOdds (numeros){
 };
     
 
-console.log (numbersEvenOdds(numeros))
- */
+(numbersEvenOdds(numeros))
+
 
 /* Exercício 3 - Crie uma função que receba uma string word e outra string ending. 
 Verifique se a string ending é o final da string word. 
