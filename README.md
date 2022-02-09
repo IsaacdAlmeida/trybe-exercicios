@@ -35,9 +35,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 4-4: _JavaScript - Objetos e funções_
 - [x] 4-5: _[Projeto - Playground Functions](https://github.com/IsaacdAlmeida/trybe-exercicios/tree/main/fundamentos/bloco-04-introducao-javascript/dia-05-projeto)_
 
-##### Bloco 5: Introdução - JavaScript - Projetos
+##### Bloco 5: Javascript: DOM, Eventos e Web Storage
 
-- [ ] 5-1: _JavaScript - DOM e seletores_
+- [x] 5-1: _JavaScript - DOM e seletores_
 - [ ] 5-2: _JavaScript - Trabalhando com elementos_
 - [ ] 5-3: _JavaScript - Eventos_
 - [ ] 5-4: _JavaScript - Web Storage_
