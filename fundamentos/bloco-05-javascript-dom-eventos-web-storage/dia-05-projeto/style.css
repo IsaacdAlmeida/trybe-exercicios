@@ -1,0 +1,60 @@
+* {
+  margin: auto;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title {
+  text-align: center;
+}
+
+#color-palette {
+  border: solid 2px black;
+  height: fit-content; /* mozilla.org/en-US/docs/Web/CSS/fit-content */
+  max-width: fit-content;
+  padding: 20px;
+}
+
+.color {
+  display: inline-block;
+  border: solid 1px black;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+#pixel-board {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.line {
+  height: 40px;
+}
+
+.pixel { /* requisito 5 */
+  border: solid 1px black;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+#clear-board {
+  display: block;
+  margin: 0, auto;
+  margin-top: 12px;
+  color: black;
+  background-color: white;
+  border: solid 2px #4caf50;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#clear-board:hover {
+  background-color: #4caf50;
+  color: white;
+}
