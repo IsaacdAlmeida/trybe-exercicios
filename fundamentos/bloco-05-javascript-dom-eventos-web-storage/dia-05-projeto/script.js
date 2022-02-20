@@ -1,5 +1,5 @@
 // funções que criam elemento com classe e id
-function addClass(elemento, caminho, classe) {
+/* function addClass(elemento, caminho, classe) {
   const newElement = document.createElement(elemento);
   caminho.appendChild(newElement);
   newElement.className = classe;
@@ -9,24 +9,25 @@ function addId(elemento, caminho, id) {
   const newElement = document.createElement(elemento);
   caminho.appendChild(newElement);
   newElement.id = id;
-}
+} */
 
-// requisito 1
-addId('h1', document.body, 'title');
+// requisito 1 - movido para o HTML
+/* addId('h1', document.body, 'title');
 const titulo = document.querySelector('#title');
-titulo.innerText = 'Paleta de Cores';
+titulo.innerText = 'Paleta de Cores'; */
 
-// requisito 2 e requisito 9
-addId('div', document.body, 'color-palette');
+// requisito 2 e requisito 9 - movidos para o HTML
+/* addId('div', document.body, 'color-palette');
 addClass('div', document.body.lastChild, 'color');
 addClass('div', document.body.lastChild, 'color');
 addClass('div', document.body.lastChild, 'color');
 addClass('div', document.body.lastChild, 'color');
-addId('button', document.body, 'clear-board');
+addId('button', document.body, 'clear-board'); */
+
 // requisito 4
 // https://dev.to/0shuvo0/lets-create-a-pixel-art-maker-with-javascript-4016 -- ideia de criar uma função que 'popule' toda a tela, mas teria que delimitar uma área, fiz linha e populei cada linha
 
-addId('div', document.body, 'pixel-board');
+/* addId('div', document.body, 'pixel-board'); */
 
 function pixelGenerator() { // vai gerar cada pixel individualmente
   const pixel = document.createElement('div');
@@ -114,7 +115,6 @@ clickPaintPixel();
 
 // requisito 9
 const clearButton = document.querySelector('#clear-board');
-clearButton.innerText = 'Limpar';
 clearButton.onclick = function reset() {
   const pixelReset = document.querySelectorAll('.pixel');
   for (let index = 0; index < pixelReset.length; index += 1) {
