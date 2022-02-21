@@ -16,37 +16,44 @@
   </header>
   <form action="GET">
     <div class="form-container ">
-
-      <div class="user-data row justify-content-around">
-        <div class="col-sm-4">
-          <input type="text" class="form-control" name="user" id="user" minlength="10" maxlength="40" autocomplete="off" placeholder="Nome Completo">
-        </div>
-        <div class="col-sm-4">
-          <input type="email" class="form-control" name="email" id="email" minlength="10" maxlength="50" autocomplete="off" placeholder="E-mail">
+      <div class="container">
+          <div class="row justify-content-around align-items-center" style="height: 100px;">
+            <div class="col-sm-4">
+              <input type="text" class="form-control" name="user" id="user" minlength="10" maxlength="40" autocomplete="off" placeholder="Nome Completo">
+            </div>
+            <div class="col-sm-4">
+              <input type="email" class="form-control" name="email" id="email" minlength="10" maxlength="50" autocomplete="off" placeholder="E-mail">
+            </div>
+          </div>
+      </div>
+      <div class="container" style="height: 200px;">
+        <h1 class="text-center">Destino Preferido</h1>
+        <div class="destiny-choice row justify-content-around align-items-center" style="height: 100px;">
+          <div class="col">
+            <label for="destino-1" class="form-check-label">
+            <input class="form-check-input" type="radio" name="destino" id="destino-1" value="city">Cidade
+            </label>
+          </div>
+          <div class="col">
+            <label for="destino-2" class="form-check-label">
+              <input class="form-check-input" type="radio" name="destino" id="destino-2" value="country">Campo
+            </label>
+          </div>
+          <div class="col">
+            <label for="destino-3" class="form-check-label">
+              <input class="form-check-input" type="radio" name="destino" id="destino-3" value="beach">Praia
+            </label>
+          </div>
+          <div class="col">
+          <label for="destino-4" class="form-check-label">
+            <input class="form-check-input" type="radio" name="destino" id="destino-4" value="mountain">Montanhas
+          </label>
+          </div>      
         </div>
       </div>
-
-      <div class="destiny-choice">
-        <p>Destino Preferido:</p>
-        <label for="destino-1" class="form-check-label">
-        <input class="form-check-input" type="radio" name="destino" id="destino-1" value="city">Cidade
-        </label>
-
-        <label for="destino-2" class="form-check-label">
-          <input class="form-check-input" type="radio" name="destino" id="destino-2" value="country">Campo
-        </label>
-        
-        <label for="destino-3" class="form-check-label">
-          <input class="form-check-input" type="radio" name="destino" id="destino-3" value="beach">Praia
-        </label>
-        
-        <label for="destino-4" class="form-check-label">
-          <input class="form-check-input" type="radio" name="destino" id="destino-4" value="mountain">Montanhas
-        </label>      
-      </div>
-
+      
+      <p class="text-center">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
       <div class="text-area">
-        <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
         <textarea name="texto" id="text-area" cols="40" rows="8" maxlength="500"></textarea>
       </div>
 
