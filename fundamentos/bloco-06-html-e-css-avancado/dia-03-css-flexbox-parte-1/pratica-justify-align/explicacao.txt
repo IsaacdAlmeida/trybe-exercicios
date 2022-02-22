@@ -1,0 +1,15 @@
+justify-content
+
+ajusta o ESPAÇAMENTO ENTRE os flex-items em relação ao main-axis (column ou row);
+serve para ajustar as 'caixas' dentro do container dando espaçamento entre elas, pode ficar todas juntas, com espaço igual entre elas, com espaço igual entre todos os elementos e etc.
+
+align-items
+
+ajusta o flex-items no cross-axis, alinha todos os items;
+tem o padrão strech (vai esticar o conteúdo por todo container)
+
+align-content
+
+o espaçamento entre as linhas, em relação ao cross-axis
+o padrão é normal
+como as linhas se comportam entre si (eixo vertical)
