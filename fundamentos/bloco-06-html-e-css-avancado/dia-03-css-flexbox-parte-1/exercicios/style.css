@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+
+body {
+  background-color: #D6D6D6;
+}
+
+.main-image {
+  width: 250px;
+}
+
+.one-ring {
+  width: 100px;
+  margin-left: 20px;
+}
+
+.bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333533;
+}
+
+.bar-container h3 {
+  margin-right: 20px;
+  color: #D6D6D6;
+}
+
+.content {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content p {
+  font-size: 35px;
+  color: #333533;;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-card {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.card-row {
+  height: 1100px;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  height: 300px;
+  -webkit-box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.64); 
+  box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.64);
+  background-color: #333533;
+  border-radius: 5%;
+}
+
+.card h4 {
+  font-size: 30px;
+  margin-top: 5px;
+  color: #D6D6D6;
+}
