@@ -46,14 +46,23 @@ function createLine(size) { // cria uma linha de pixels (div) com class line
   return line;
 }
 
-function populatePixelBoard(boardSize) { // popula todo o pixel board
+
+const inputNumber = document.querySelector('.input-number');
+inputNumber.addEventListener('change', populatePixelBoard)
+
+//window onload para chamar a função e já deixar carregado com 5
+// if para valor do board
+// function delete board - 
+
+function populatePixelBoard() { // popula todo o pixel board
+  const boardSize = inputNumber.value
   const pixelBoard = document.getElementById('pixel-board');
+  console.log(typeof boardSize);
   for (let index = 1; index <= boardSize; index += 1) {
     const populateLine = createLine(boardSize);
     pixelBoard.appendChild(populateLine);
   }
 }
-populatePixelBoard(5);
 
 // requisito 5 no CSS
 
