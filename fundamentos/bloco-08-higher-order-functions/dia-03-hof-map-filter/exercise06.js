@@ -62,3 +62,11 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
+
+const oldBooks = (arr) => {
+  const compareYear = 2022 - 60;
+  const arrayOldBooks = arr.filter((key) => (key.releaseYear < compareYear));
+  return arrayOldBooks.map((item) => item.name)
+}
+
+console.log(oldBooks(books));
