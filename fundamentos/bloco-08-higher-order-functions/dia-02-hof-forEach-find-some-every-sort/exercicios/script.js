@@ -134,5 +134,30 @@ function someBookWasReleaseOnThe80s() {
     
   })
 }
-
 console.log(authorUnique(books)); */
+
+// método não funciona - array acaba chocando e dá ruim
+/* function authorUnique() {
+  return books.every((item) => {
+    return books.indexOf(item.author.birthYear) !== books.lastIndexOf(item.author.birthYear);
+  })
+}
+
+console.log(authorUnique(books)) //return false */
+
+function authorUnique() {
+  let birthAgeDiffente = true
+  books.forEach((item, posicao) => {
+    books.forEach((item2, posicao2) => {
+      if (posicao === posicao2) {
+        return;
+      }
+      if (item.author.birthYear === item2.author.birthYear) {
+        birthAgeDiffente = false;
+      }
+    });
+  });
+  return birthAgeDiffente;
+}
+
+console.log(authorUnique(books))
