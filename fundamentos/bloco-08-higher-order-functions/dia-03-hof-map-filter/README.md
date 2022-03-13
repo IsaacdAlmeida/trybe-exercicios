@@ -19,17 +19,17 @@
 ### Exercício 4:
 <br />
 
-- [ ] Crie um array ordenado pelos livros com mais de 60 anos de publicação e ordene-o pelo livro mais velho.
+- [x] Crie um array ordenado pelos livros com mais de 60 anos de publicação e ordene-o pelo livro mais velho.
 
 ### Exercício 5:
 <br />
 
-- [ ]  Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
+- [x]  Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
 
 ### Exercício 6:
 <br />
 
-- [ ] Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
+- [x] Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
 
 ### Exercício 7:
 <br />
