@@ -76,7 +76,10 @@ const estudantes = [
 // Criar um novo array, com o nome do estudante e a melhor matéria
 
 
-const reduceGradeFunction = (acc, item) => (acc.nota > item.nota) ? acc : item
+const reduceGradeFunction = (acc, item) => {
+  if (acc.nota > item.nota) return acc
+  return item
+  }
 
 
 const studentBestGrade = (arr) => {

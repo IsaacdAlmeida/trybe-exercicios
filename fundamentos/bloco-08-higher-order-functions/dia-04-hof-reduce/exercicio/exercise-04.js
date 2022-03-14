@@ -62,19 +62,13 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
+//4 - Encontre o livro com o maior nome.
 
-const reduceNames = (arr) => {
-  const startValue = '';
-  
-  const reduceFunction = arr.reduce((acc, item, index, array) => {
-    const isLastItem = index === array.length - 1
-    const lastItem = isLastItem ? acc + `${item.name}.` : acc + `${item.name}, `
-
-    return lastItem;
-
-  }, startValue)
-
-  return reduceFunction;
+const longestBookName = () => {
+  return books.reduce((acc, item) => {
+    if (item.name.length > acc.length) return item
+    return acc
+  }, books[1].name)
 }
 
-console.log(reduceNames(books));
+console.log(longestBookName());
