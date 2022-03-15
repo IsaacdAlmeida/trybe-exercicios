@@ -20,27 +20,27 @@
 ### Exercício 4:
 <br />
 
-- [ ] Escreva uma função filterPeople que, dada uma lista de pessoas, retorna todas as pessoas australianas que nasceram no século 20:
+- [x] Escreva uma função filterPeople que, dada uma lista de pessoas, retorna todas as pessoas australianas que nasceram no século 20:
 
 ### Exercício 5:
 <br />
 
-- [ ] Escreva a função swap , que dado um array de 3 elementos, retorna um novo array com o primeiro e terceiro elementos trocados. Detalhe: você precisa fazer essa função gastando 1 linha só:
+- [x] Escreva a função swap , que dado um array de 3 elementos, retorna um novo array com o primeiro e terceiro elementos trocados. Detalhe: você precisa fazer essa função gastando 1 linha só:
 
 ### Exercício 6:
 <br />
 
-- [ ] Suponha que você esteja lidando com carros e, da forma como o problema lhe foi entregue, cada carro é modelado como um array. Porém, essa modelagem está baixo nível. Cria uma função toObject que, dada uma lista, retorna um objeto representando o carro:
+- [x] Suponha que você esteja lidando com carros e, da forma como o problema lhe foi entregue, cada carro é modelado como um array. Porém, essa modelagem está baixo nível. Cria uma função toObject que, dada uma lista, retorna um objeto representando o carro:
 
 ### Exercício 7:
 <br />
 
-- [ ] Escreva uma função shipLength que, dado um objeto representando um navio, retorna o comprimento dele, mostrando também a devida unidade de comprimento:
+- [x] Escreva uma função shipLength que, dado um objeto representando um navio, retorna o comprimento dele, mostrando também a devida unidade de comprimento:
 
 ### Exercício 8:
 <br />
 
-- [ ] Escreva uma função greet que, dado o nome de uma pessoa, retorna uma mensagem de cumprimento:
+- [x] Escreva uma função greet que, dado o nome de uma pessoa, retorna uma mensagem de cumprimento:
 
 ### Exercício 9:
 <br />

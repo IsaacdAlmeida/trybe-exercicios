@@ -6,6 +6,5 @@ const rectangle3 = [6, 9];
 const rectangles = [rectangle1, rectangle2, rectangle3];
 
 rectangles.forEach((rectangleItem) => {
-  rectangleArea(...rectangleItem)
-  console.log(rectangleItem[0] * rectangleItem[1]);
+  console.log(rectangleArea(...rectangleItem));
 });
