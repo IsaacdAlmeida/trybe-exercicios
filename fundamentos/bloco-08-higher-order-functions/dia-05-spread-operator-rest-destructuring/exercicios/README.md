@@ -4,17 +4,17 @@
 ### Exercício 1:
 <br />
 
-- [ ] Dado o código abaixo, complete-o de forma que seja impressa a área dos 3 retângulos. O código deve retornar em sequência 2 , 15 e 54 .
+- [x] Dado o código abaixo, complete-o de forma que seja impressa a área dos 3 retângulos. O código deve retornar em sequência 2 , 15 e 54 .
 
 ### Exercício 2:
 <br />
 
-- [ ] Crie uma função sum que dado um número variável de elementos retorna a soma desses elementos.
+- [x] Crie uma função sum que dado um número variável de elementos retorna a soma desses elementos.
 
 ### Exercício 3:
 <br />
 
-- [ ] Escreva a função personLikes , que dado um objeto de parâmetro que representa uma pessoa, retorna todos os gostos daquela pessoa, conforme mostrado abaixo:
+- [x] Escreva a função personLikes , que dado um objeto de parâmetro que representa uma pessoa, retorna todos os gostos daquela pessoa, conforme mostrado abaixo:
 
 
 ### Exercício 4:
