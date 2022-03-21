@@ -36,7 +36,7 @@ const brazilStates = {
   }
 }
 
-// const { p, amazonas: { região } } = brazilStates; // nesse caso eu posso acessar a chave do objeto que eu quero fazer o destructuring dessa maneira
+const { amazonas: { região } } = brazilStates; // nesse caso eu posso acessar a chave do objeto que eu quero fazer o destructuring dessa maneira
 
-// console.log(pernambuco, região);
+console.log(região);
 
