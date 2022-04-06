@@ -29,7 +29,7 @@ class Content extends React.Component {
       <div className='content'>
         {
           conteudos.map(({conteudo, bloco, status}) => (
-            <div key={conteudo}>
+            <div key={conteudo}> 
               <h4>{`O conteúdo é: ${conteudo}`}</h4>
               <p>{`Status: ${status}`}</p>
               <p>{`Bloco: ${bloco}`}</p>
