@@ -1,24 +1,9 @@
 import { Component } from "react";
 
 class NameImput extends Component {
-  constructor() {
-    super();
-
-    this.state = {
-      name: '',
-    }
-  }
-
-  onChangeHAndler = ({ target }) => {
-    const { name, value } = target;
-    this.setState({
-      [name]: value
-    })
-  };
-
   render() {
 
-    const { name } = this.state;
+    const { name, onChangeHAndler } = this.props;
 
     return (
       <div>
@@ -26,12 +11,9 @@ class NameImput extends Component {
         <input 
           type='text'
           name='name'
-          onChange={this.onChangeHAndler} 
+          onChange={onChangeHAndler} 
           value={ name }
         />
-        <p>
-          Nome: {name}
-        </p>
       </div>
     )
   }

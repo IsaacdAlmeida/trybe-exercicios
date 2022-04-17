@@ -1,11 +1,11 @@
-import NameImput from './components/NameImput';
+import Form from "./components/Form";
 
 
 function App() {
   return (
     <div className="App">
       <fieldset>
-        <NameImput />
+        <Form />
       </fieldset>
     </div>
   );
