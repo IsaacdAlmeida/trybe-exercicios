@@ -1,6 +1,8 @@
 import { Component } from "react";
 import NameImput from "./NameImput";
 import Email from "./Email";
+import Birth from "./Birth";
+import MomName from "./MomName";
 
 class Form extends Component {
 
@@ -10,6 +12,7 @@ class Form extends Component {
     this.state = {
       name: '',
       email: '',
+      mother:'',
     }
 
   }
@@ -23,7 +26,7 @@ class Form extends Component {
 
       const errorCase = [
         name.length < valorMaximo,
-        name.lenght !== 0,
+        name.length !== 0,
         email.length < valorMaximo,
         email.length !== 0,
       ];
@@ -40,7 +43,7 @@ class Form extends Component {
 
   render() {
 
-    const { name, email } = this.state
+    const { name, email, mother } = this.state
 
     return (
       <div>
@@ -54,6 +57,12 @@ class Form extends Component {
           value={ email }
           onChangeHAndler = {this.onChangeHAndler}
         />
+        Nome da mãe: {mother}
+        <MomName 
+          value={mother}
+          onChangeHAndler = {this.onChangeHAndler}
+        />
+        <Birth />
       </div>
     )
   }
