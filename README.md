@@ -102,20 +102,21 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 13-1: _Metodologias Ágeis_
 - [x] 13-2: _[Projeto - Frontend Online Store]()_
 
-##### Bloco 14: Testes em React
+##### Bloco 14: Testes automatizados com React Testing Library
 
-- [x] 14-1: _Testando React com a React Testing Library_
-- [ ] 14-2: _Testando React com a React Testing Library - Parte 2_
-- [ ] 14-3: _[Projeto - Testes em React]()_
+- [x] 14-1: _Primeiros passos com React Testing Library_
+- [x] 14-2: _React Testing Library - Mocks e Inputs_
+- [x] 14-3: _Testando React Router_
+- [ ] 14-4: _[Projeto - Testes em React]()_
 
-##### Bloco 15: Introdução ao Redux
+##### Bloco 15: Gerenciamento de estado com Redux
 
-- [ ] 15-1: _Introdução ao Redux_
+- [x] 15-1: _Introdução ao Redux_
 - [ ] 15-2: _React com Redux - Parte 1_
 - [ ] 15-3: _React com Redux - Prática_
 - [ ] 15-4: _React com Redux - Parte 2_
 - [ ] 15-5: _Testes síncronos com React-Redux_
-- [ ] 15-6: _[Projeto - Tabela com filtros de dados]()_
+- [ ] 15-6: _[Projeto - Trybe Wallet]()_
 
 ##### Bloco 16: Projeto React
 
