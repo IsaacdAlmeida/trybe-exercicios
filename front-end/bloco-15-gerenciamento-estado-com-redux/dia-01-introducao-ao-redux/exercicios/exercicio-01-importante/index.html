@@ -38,6 +38,7 @@
         index: 0,
       };
 
+           
       // criar um reduce e implementar o estado inicial como default
       // 3 implementa os actions e incrementa o switch
 
@@ -97,7 +98,17 @@
       // criar um store
 
       const store = Redux.createStore(reducer)
-      
+
+      // subscribe do store, alterando o innerHTML do 'value' para a cor atual e a cor
+
+      store.subscribe(() => {
+        const { colors, index } = store.getState(); // pega os estados igual ao this.state
+        const value = document.getElementById('value');
+        const container = document.getElementById('container');
+
+        value.innerHTML = colors[index];
+        container.style.background = colors[index];
+      })
 
     </script>
   </body>
