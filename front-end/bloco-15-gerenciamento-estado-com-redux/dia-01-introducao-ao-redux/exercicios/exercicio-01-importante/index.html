@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+    <style>
+      body {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+
+      #container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      button {
+        height: 50px;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <p>Color: <span id="value">white</span></p>
+      <button id="previous">Previous color</button>
+      <button id="next">Next color</button>
+      <button id="random">Random color</button>
+    </div>
+    <script>
+      const ESTADO_INICIAL = {
+        colors: ['white', 'black', 'red', 'green', 'blue', 'yellow'],
+        index: 0,
+      };
+
+      function criarCor() {
+        const oneChar = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'];
+        let cor = '#';
+        const aleatorio = () => Math.floor(Math.random() * oneChar.length);
+        for (let i = 0; i < 6; i += 1) {
+            cor += oneChar[aleatorio()];
+        }
+        return cor;
+      }
+           
+      // criar um reduce e implementar o estado inicial como default
+      // 3 implementa os actions e incrementa o switch
+
+      const NEXT_COLOR = 'NEXT_COLOR';
+      const PREVIOUS_COLOR = 'PREVIOUS_COLOR';
+      const RANDOM_COLOR = 'RANDOM_COLOR'
+      
+      const reducer = (prevState = ESTADO_INICIAL, action) => {
+        const COLORS_LENGTH = prevState.colors.length - 1;
+
+        switch (action.type) {
+          case NEXT_COLOR:
+            return {
+              ...prevState,
+              index: prevState.index === COLORS_LENGTH ? 0 : prevState.index + 1,
+              // a lógica aqui é que se o index for tamanho do array, quando incremento
+              // volta pra posição zero, caso contrário soma +1
+            };
+          case PREVIOUS_COLOR:
+            return {
+              ...prevState,
+              index: prevState.index === 0 ? COLORS_LENGTH : prevState.index - 1,
+              // a lógica aqui é que se o index começar no 0, ele vai pro último elemento
+              // caso contrário decrementa 1
+            }
+          case RANDOM_COLOR:
+            return {
+              ...prevState,
+              index: COLORS_LENGTH + 1,
+              colors: [...prevState.colors, criarCor()], // cria um novo array com as cores anteriores e uma cor nova
+            }
+          default:
+            return prevState;
+        }
+      }
+
+      // criando o action e dispatch com event listener
+
+      const actionNextColor = () => {
+        return {
+          type: NEXT_COLOR,
+        }
+      };
+
+      const actionPrevColor = () => {
+        return {
+          type: PREVIOUS_COLOR,
+        }
+      };
+
+      const actionRandomColor = () => {
+        return {
+          type: RANDOM_COLOR,
+        }
+      };
+      
+      const nextButton = document.getElementById('next');
+      const prevButton = document.getElementById('previous');
+      const randomButton = document.getElementById('random');
+
+      nextButton.addEventListener('click', () => {
+        store.dispatch(actionNextColor());
+        // console.log('next');
+      });
+
+      prevButton.addEventListener('click', () => {
+        store.dispatch(actionPrevColor());
+        // console.log('prev');
+      });
+
+      randomButton.addEventListener('click', () => {
+        store.dispatch(actionRandomColor());
+      });
+
+      // criar um store
+
+      const store = Redux.createStore(reducer)
+
+      // subscribe do store, alterando o innerHTML do 'value' para a cor atual e a cor
+
+      store.subscribe(() => {
+        const { colors, index } = store.getState(); // pega os estados igual ao this.state
+        const value = document.getElementById('value');
+        const container = document.getElementById('container');
+
+        value.innerHTML = colors[index];
+        container.style.background = colors[index];
+      })
+
+    </script>
+  </body>
+</html>
