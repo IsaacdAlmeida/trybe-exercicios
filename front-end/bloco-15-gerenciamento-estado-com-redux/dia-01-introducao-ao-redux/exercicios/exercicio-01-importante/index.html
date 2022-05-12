@@ -38,10 +38,6 @@
         index: 0,
       };
 
-      // criar um store
-
-      const store = Redux.createStore()
-      
       // criar um reduce e implementar o estado inicial como default
       // 3 implementa os actions e incrementa o switch
 
@@ -70,7 +66,39 @@
             return prevState;
         }
       }
+
+      // criando o action e dispatch com event listener
+
+      const actionNextColor = () => {
+        return {
+          type: NEXT_COLOR,
+        }
+      };
+
+      const actionPrevColor = () => {
+        return {
+          type: PREVIOUS_COLOR,
+        }
+      };
       
+      const nextButton = document.getElementById('next');
+      const prevButton = document.getElementById('previous');
+
+      nextButton.addEventListener('click', () => {
+        store.dispatch(actionNextColor());
+        // console.log('next');
+      });
+
+      prevButton.addEventListener('click', () => {
+        store.dispatch(actionPrevColor());
+        // console.log('prev');
+      });
+
+      // criar um store
+
+      const store = Redux.createStore(reducer)
+      
+
     </script>
   </body>
 </html>
