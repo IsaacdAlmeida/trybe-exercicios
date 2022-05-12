@@ -43,11 +43,31 @@
       const store = Redux.createStore()
       
       // criar um reduce e implementar o estado inicial como default
+      // 3 implementa os actions e incrementa o switch
 
-      const reducer = (state = ESTADO_INICIAL, action) => {
+      const NEXT_COLOR = 'NEXT_COLOR';
+      const PREVIOUS_COLOR = 'PREVIOUS_COLOR';
+      
+      const reducer = (prevState = ESTADO_INICIAL, action) => {
+        const COLORS_LENGTH = prevState.colors.length - 1;
+
         switch (action.type) {
+          case NEXT_COLOR:
+            return {
+              ...prevState,
+              index: prevState.index === COLORS_LENGTH ? 0 : prevState.index + 1,
+              // a lógica aqui é que se o index for tamanho do array, quando incremento
+              // volta pra posição zero, caso contrário soma +1
+            };
+          case PREVIOUS_COLOR:
+            return {
+              ...prevState,
+              index: prevState.index === 0 ? COLORS_LENGTH : prevState.index - 1,
+              // a lógica aqui é que se o index começar no 0, ele vai pro último elemento
+              // caso contrário decrementa 1
+            }
           default:
-            return state;
+            return prevState;
         }
       }
       
