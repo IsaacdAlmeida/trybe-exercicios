@@ -4,7 +4,7 @@ const INITIAL_STATE = {
 
 function mySuperReducer(state = INITIAL_STATE, action) {
   switch (action.type) {
-    case 'NEW_SUPER.ACTION':
+    case 'NEW_SUPER_ACTION':
       return { state: action.state };
     default:
       return state;
