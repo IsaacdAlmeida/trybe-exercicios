@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { fetchDog } from './store';
 
+
 function App({ isFetching, src, fetchDog }) {
   return (
     isFetching ? <p>Loading</p>
