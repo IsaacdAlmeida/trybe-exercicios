@@ -1,10 +1,29 @@
-import React, { Component } from 'react'
+import React, { useState, useContext } from 'react'
+import { nanoid } from 'nanoid'
+import QuestionContext from '../context/QuestionsContext'
 
-class NewQuestionPage extends Component {
-  render() {
+function NewQuestionPage({ history }) {
+ 
+    const [question, setQuestion] = useState('')
+    const [name, setName] = useState('')
+
+    const {createQuestion} = useContext(QuestionContext)
+
+    const handleSubmit = (event) => {
+      event.preventDefault()
+      const newQuestion = {
+        id: nanoid(),
+        name,
+        question,
+        claps: 0,
+      };
+      createQuestion(newQuestion);
+      history.push("/");
+    }
+
     return (
       <div>
-        <form>
+        <form onSubmit={handleSubmit}>
         <label htmlFor="question">
           Digite sua pergunta:
           <textarea 
@@ -13,6 +32,8 @@ class NewQuestionPage extends Component {
             id="question"
             cols="20"
             rows="10"
+            value={question}
+            onChange={(event) => setQuestion(event.target.value)}
           />
         </label>
         <label htmlFor="user">
@@ -22,6 +43,8 @@ class NewQuestionPage extends Component {
             name="name"
             placeholder="Escreva seu nome"
             id="user"
+            value={name}
+            onChange={(event) => setName(event.target.value)}
           />
         </label>
         <button type="submit">
@@ -30,7 +53,6 @@ class NewQuestionPage extends Component {
       </form>
       </div>
     )
-  }
 }
 
-export default NewQuestionPage
+export default NewQuestionPage;
