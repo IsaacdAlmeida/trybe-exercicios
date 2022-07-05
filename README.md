@@ -131,17 +131,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 18: Projeto Final de Front-end
 
-- [ ] 1-1: _[Projeto - App de Receitas]()_
+- [x] 1-1: _[Projeto - App de Receitas]()_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 19: Introdução - Bancos de dados relacionais
+##### Bloco 19: Docker - Utilizando Containers
 
-- [ ] 19-1: _Banco de dados SQL_
-- [ ] 19-2: _Encontrando dados em um banco de dados_
-- [ ] 19-3: _Filtrando dados de forma específica_
-- [ ] 19-4: _Manipulando tabelas_
-- [ ] 19-5: _[Projeto - All For One]()_
+- [ ] 19-1: _Utilizando Containers - Docker_
+- [ ] 19-2: _Manipulando imagens no Docker_
+- [ ] 19-3: _Orquestrando Containers com Docker Compose_
+- [ ] 19-4: _[Projeto - Docker Todo-List]()_
 
 ##### Bloco 20: Bancos de dados relacionais
 
