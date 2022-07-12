@@ -89,7 +89,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 11-1: _Components com estado_
 - [x] 11-2: _Eventos e formulários no React_
-- [x] 11-3: _[Projeto - Tryunfo]()_
+- [x] 11-3: _[Projeto - Tryunfo](https://github.com/IsaacdAlmeida/tryunfo)_
 
 ##### Bloco 12: Ciclo de vida de componentes e React Router
 
@@ -107,7 +107,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 14-1: _Primeiros passos com React Testing Library_
 - [x] 14-2: _React Testing Library - Mocks e Inputs_
 - [x] 14-3: _Testando React Router_
-- [ ] 14-4: _[Projeto - Testes em React]()_
+- [x] 14-4: _[Projeto - Testes em React]()_
 
 ##### Bloco 15: Gerenciamento de estado com Redux
 
@@ -140,7 +140,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 19-1: _Utilizando Containers - Docker_
 - [x] 19-2: _Manipulando imagens no Docker_
 - [x] 19-3: _Orquestrando Containers com Docker Compose_
-- [ ] 19-4: _[Projeto - Docker Todo-List]()_
+- [x] 19-4: _[Projeto - Docker Todo-List](https://github.com/IsaacdAlmeida/docker-todolist)_
 
 ##### Bloco 20: Bancos de dados relacionais
 
