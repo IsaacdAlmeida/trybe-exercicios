@@ -142,18 +142,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 19-3: _Orquestrando Containers com Docker Compose_
 - [x] 19-4: _[Projeto - Docker Todo-List](https://github.com/IsaacdAlmeida/docker-todolist)_
 
-##### Bloco 20: Bancos de dados relacionais
+##### Bloco 20: Introdução SQL
 
-- [ ] 20-1: _Funções mais usadas no SQL_
-- [ ] 20-2: _Descomplicando JOINs e UNIONs_
-- [ ] 20-3: _Stored Routines & Subqueries_
-- [ ] 20-4: _[Projeto - Vocabulary Booster]()_
+- [x] 20-1: _Banco de dados - SQL_
+- [x] 20-2: _Encontrando dados em um banco de dados_
+- [x] 20-3: _Filtrando dados_
+- [x] 20-3: _Manipulando tabelas_
+- [x] 20-4: _[Projeto - All For One](https://github.com/IsaacdAlmeida/mysql-all-for-one)_
 
-##### Bloco 21: Bancos de dados relacionais
+##### Bloco 21: Funções SQL, JOINs e Normalização
 
-- [ ] 21-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 21-2: _Normalização, Formas Normais e Dumps_
-- [ ] 21-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [ ] 21-1: _Funções mais usadas no SQL_
+- [ ] 21-2: _Descomplicando JOINs_
+- [ ] 21-2: _Transformando ideias em um modelo de banco de dados_
 - [ ] 21-3: _[Projeto - One For All]()_
 
 ##### Bloco 22: Introdução - NoSQL
