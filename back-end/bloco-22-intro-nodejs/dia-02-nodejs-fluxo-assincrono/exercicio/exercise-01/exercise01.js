@@ -11,6 +11,15 @@ const exerc = (a, b, c) => {
   return promise;
 }
 
-exerc(1, 'a', 30)
+/* exerc(1, 'a', 30)
   .then((result) => console.log(result))
-  .catch((error) => console.log(error.message))
+  .catch((error) => console.log(error.message)) */
+
+const getRandomNumber = async () => {
+  const randomNumbers = Array.from({ length:3 }, () => Math.floor(Math.random() * 100 + 1));
+  
+  const result = await exerc(...randomNumbers);
+  console.log(result)
+}
+
+getRandomNumber()
