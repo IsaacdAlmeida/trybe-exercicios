@@ -13,8 +13,8 @@ const recipes = [
   { id: 3, name: 'Macarrão com molho branco', price: 35.0, waitTime: 25 },
 ]
 
-app.get('/recipes', function(req, res){
-  res.json(recipes);
+app.get('/recipes', function(_req, res){
+  res.status(200).json(recipes);
 });
 
 //----------------- Query String -------------------------
@@ -33,7 +33,7 @@ app.get('/recipes/:id', function(req, res) {
   const { id } = req.params;
   const recipe = recipes.find((route) => route.id === Number(id));
 
-  if (!recipe) return res,status(404).json({ message: 'recipe not found' });
+  if (!recipe) return res.status(404).json({ message: 'recipe not found' });
 
   res.status(200).json(recipe);
 })
@@ -48,10 +48,47 @@ app.post('/recipes', function (req, res){
 }); // podemos ter rotas repetidas, desde que com métodos diferentes (ou verbo)
 
 
+// ... exemplo de rota com validação de token
 
+/* app.get('/validateToken', function (req, res) {
+  const token = req.headers.authorization;
+  if (token.length !== 16) return res.status(401).json({message: 'Invalid Token!'});
 
+  res.status(200).json({message: 'Valid Token!'})
+});
+ */
+// ...
+// -------------------------------------------------------
+
+// ---------- deletando e editdando dados ----------------
+app.put('/recipes/:id', function(req, res) {
+  const {id} = req.params;
+  const {name, price} = req.body;
+  const recipeIndex = recipes.findIndex((item) => item.id === Number(id));
+
+  if(recipeIndex === -1) return res.status(404).json({ message: 'Recipe not found' });
+  recipes[recipeIndex] = { ...recipes[recipeIndex], name, price };
+
+  res.status(204).end();
+})
+
+app.delete('/recipes/:id', function (req, res) {
+  const { id } = req.params;
+  const recipeIndex = recipes.findIndex((r) => r.id === Number(id));
+
+  if (recipeIndex === -1) return res.status(404).json({ message: 'Recipe not found!' });
+
+  recipes.splice(recipeIndex, 1);
+
+  res.status(204).end();
+});
 
 // -------------------------------------------------------
+
+
+app.all('*', function (req, res) {
+	return res.status(404).json({ message: `Rota '${req.path}' não existe!`});
+});
 
 app.listen(3001, () => {
   console.log('app rodando porta 3001');

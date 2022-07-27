@@ -22,6 +22,12 @@ app.get('/drinks/:id', function(req, res){
 	res.status(200).json(drink);
 })
 
+app.post('/drinks', function(req, res) {
+	const { id, name, price } = req.body;
+	drinks.push({ id, name, price });
+	res.status(201).json({ message: 'drink create sucesfully' });
+})
+
 app.listen(3001, () => {
   console.log('rodando na porta 3001');
 });
