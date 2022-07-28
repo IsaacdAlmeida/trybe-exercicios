@@ -5,7 +5,7 @@ const app = express();
 
 app.use(bodyParser.json());
 
-app.get('/simpsons', async (req, res) => {
+app.get('/simpsons', async (_req, res) => {
   try {
     const simpsonsArray = await readSimpsons();
 
