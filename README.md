@@ -164,14 +164,15 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 22-3: _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
 - [x] 22-4: _Express - HTTP com Node.js_
 - [x] 22-5: _Express - Middlewares_
-- [ ] 22-6: _[Projeto - Talker Manager]()_
+- [x] 22-6: _[Projeto - Talker Manager](https://github.com/IsaacdAlmeida/talker-manager)_
 
-##### Bloco 23: Updates
+##### Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 23-1: _Updates Simples_
-- [ ] 23-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 23-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 23-4: _[Projeto - Commerce]()_
+- [ ] 23-1: _Arquitetura de software - Camada de Model_
+- [ ] 23-1: _Arquitetura de software - Camada de Controller e Service_
+- [ ] 23-1: _Arquitetura web - Rest e Restful_
+- [ ] 23-1: _Arquitetura de software - Testando Camadas_
+- [ ] 23-4: _[Projeto - Store Manager]()_
 
 ##### Bloco 24: Aggregation Framework
 
