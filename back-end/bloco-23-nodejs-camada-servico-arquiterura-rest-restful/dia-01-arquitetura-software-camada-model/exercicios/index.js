@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const PORT = 3006;
-const { createUser, getUser, getUserById, editUser } = require('./models/users');
+const { createUser, getUser, getUserById, editUser, deleteUser } = require('./models/users');
 const { validateUser } = require('./middlewares/validateUser');
 
 app.use(express.json());
@@ -34,7 +34,7 @@ app.get('/user/:id', async (req, res) => {
   };
 
   return res.status(200).json(user);
-})
+});
 
 app.put('/user/:id', validateUser, async (req, res) => {
   try {
@@ -46,7 +46,18 @@ app.put('/user/:id', validateUser, async (req, res) => {
   } catch (error) {
     return res.status(500).json({ message: 'server error' });
   }
-})
+});
+
+app.delete('/user/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+    await deleteUser(id);
+
+    return res.status(200).json({ message: 'Deleted' })
+  } catch (error) {
+    return res.status(500).json({ message: 'server error' });
+  }
+});
 
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}!`);

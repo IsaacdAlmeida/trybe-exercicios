@@ -53,9 +53,18 @@ const editUser = async ({ firstName, lastName, email, password, id }) => {
   return editedUser; // ATENÇÃO: o retorno dessa função será somente as informações referentes ao que foi alterado, caso deseje retornar um objeto, poderá fazer diretamente na requisição
 };
 
+const deleteUser = async (id) => {
+  const QUERY = 'DELETE FROM exercicioModels.users WHERE id = ?;';
+
+  const [deleted] = await connection.execute(QUERY, [id]);
+
+  return deleted;
+}
+
 module.exports = {
   createUser,
   getUser,
   getUserById,
   editUser,
+  deleteUser,
 };
