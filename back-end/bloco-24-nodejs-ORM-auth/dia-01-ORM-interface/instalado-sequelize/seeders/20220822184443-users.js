@@ -7,13 +7,13 @@ module.exports = {
         full_name: 'Isaac',
         email: 'isaaco@test.com',
         created_at: Sequelize.literal('CURRENT_TIMESTAMP'),
-        update_at: Sequelize.literal('CURRENT_TIMESTAMP'),
+        updated_at: Sequelize.literal('CURRENT_TIMESTAMP'),
       },
       {
         full_name: 'Almeida',
         email: 'almeida@test.com',
         created_at: Sequelize.literal('CURRENT_TIMESTAMP'),
-        update_at: Sequelize.literal('CURRENT_TIMESTAMP'),
+        updated_at: Sequelize.literal('CURRENT_TIMESTAMP'),
       }
     ], {}),
 
