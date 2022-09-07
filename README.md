@@ -131,7 +131,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 18: Projeto Final de Front-end
 
-- [x] 1-1: _[Projeto - App de Receitas]()_
+- [x] 1-1: _[Projeto - App de Receitas](https://github.com/IsaacdAlmeida/recipes-app)_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
@@ -172,28 +172,28 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 23-1: _Arquitetura de software - Camada de Controller e Service_
 - [x] 23-1: _Arquitetura web - Rest e Restful_
 - [x] 23-1: _Arquitetura de software - Testando Camadas_
-- [x] 23-4: _[Projeto - Store Manager]()_
+- [x] 23-4: _[Projeto - Store Manager](https://github.com/IsaacdAlmeida/store-manager)_
 
 ##### Bloco 24: Node.js: ORM e Autenticação
 
 - [x] 24-1: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 24-2: _ORM - Associations_
+- [x] 24-2: _ORM - Associations_
 - [x] 24-3: _JWT - (JSON Web Token)_
-- [ ] 24-4: _Testando APIs com Testes de integração_
-- [ ] 24-5: _[Projeto - API de Blogs]()_
+- [x] 24-4: _Testando APIs com Testes de integração_
+- [x] 24-5: _[Projeto - API de Blogs](https://github.com/IsaacdAlmeida/blogs-api)_
 
-##### Bloco 25: Intro - NodeJS
+##### Bloco 25: Deployment
 
-- [ ] 25-1: _NodeJS - Introdução_
-- [ ] 25-2: _NodeJS - Fluxo Assíncrono_
-- [ ] 25-3: _NodeJS - Arquitetura_
-- [ ] 25-4: _[Projeto - A CLI of Ice and Fire]()_
+- [x] 25-1: _Infraestrutura - Deploy com heroku_
+- [x] 25-2: _Deploy Docker & Heroku_
+- [x] 25-3: _[Projeto - Stranger Things](https://isaacdalmeida-pd.herokuapp.com/)_
 
-##### Bloco 26: NodeJS
+##### Bloco 26: TypeScript
 
-- [ ] 26-1: _Express: HTTP com Node.js_
-- [ ] 26-2: _Arquitetura de Software - Introdução ao MVC_
-- [ ] 26-3: _[Projeto - Cookmaster]()_
+- [ ] 26-1: _Introudução: typescript_
+- [ ] 26-2: _Tipagem Estática e Generics_
+- [ ] 26-3: _Express com TypeScript_
+- [ ] 26-4: _[Projeto - Trybe Smith]()_
 
 ##### Bloco 27: NodeJS
 
