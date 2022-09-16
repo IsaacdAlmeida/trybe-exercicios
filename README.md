@@ -193,13 +193,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 26-1: _Introudução: typescript_
 - [x] 26-2: _Tipagem Estática e Generics_
 - [x] 26-3: _Express com TypeScript_
-- [ ] 26-4: _[Projeto - Trybe Smith]()_
+- [x] 26-4: _[Projeto - Trybe Smith]()_
 
-##### Bloco 27: NodeJS
+##### Bloco 27: Programação Orientada a Objetos e SOLID
 
-- [ ] 27-1: _Arquitetura de Software - Camada de Serviço_
-- [ ] 27-2: _Arquitetura web - Rest e Restful_
-- [ ] 27-3: _[Projeto - Store Manager]()_
+- [x] 27-1: _Introdução POO_
+- [ ] 27-2: _Herança e interfaces_
+- [ ] 27-3: _Polimorfismo_
+- [ ] 27-4: _SOLID - Princípios S, O e D_
+- [ ] 27-5: _SOLID - Princípios L e I_
+- [ ] 27-6: _[Projeto - Trybe and Dragons]()_
 
 ##### Bloco 28: NodeJS
 
