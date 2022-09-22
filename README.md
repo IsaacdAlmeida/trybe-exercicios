@@ -199,9 +199,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 27-1: _Introdução POO_
 - [x] 27-2: _Herança e interfaces_
-- [ ] 27-3: _Polimorfismo_
-- [ ] 27-4: _SOLID - Princípios S, O e D_
-- [ ] 27-5: _SOLID - Princípios L e I_
+- [x] 27-3: _Polimorfismo_
+- [x] 27-4: _SOLID - Princípios S, O e D_
+- [x] 27-5: _SOLID - Princípios L e I_
 - [ ] 27-6: _[Projeto - Trybe and Dragons]()_
 
 ##### Bloco 28: NodeJS
