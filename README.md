@@ -212,7 +212,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 29-1: _MongoDB - introdução_
 - [x] 29-2: _Filter Operators_
-- [ ] 29-3: _Operadores de Consulta_
+- [x] 29-3: _Operadores de Consulta_
 - [ ] 29-4: _Update Simples_
 - [ ] 29-5: _Updates Complexos - Arrays_
 - [ ] 29-6: _[Projeto - Commerce]()_

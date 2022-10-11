@@ -1,0 +1,25 @@
+use('class')
+
+// 🚀Retorne a quantidade de documentos da coleção books.
+
+// db.books.countDocuments({})
+
+// 🚀Conte quantos livros existem com o status = "PUBLISH".
+
+// db.books.countDocuments(
+//   { status: 'PUBLISH' }
+// )
+
+// 🚀Exiba os campos title, isbn e pageCount dos 3 primeiros livros. NÃO retorne o campo _id.
+
+// db.books.find(
+//   {},
+//   {'_id': 0, 'title': 1, 'isbn':1, 'pageCount':1}
+// ).limit(3)
+
+// 🚀  Pule 5 documentos e exiba os atributos _id, title, authors e status dos livros com o status = "MEAP", limitando-se a 10 documentos.
+
+db.books.find(
+  { status: 'MEAP' },
+  {'title': 1, 'isbn':1, 'pageCount':1}
+).skip(5).limit(10)
