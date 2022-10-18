@@ -8,7 +8,7 @@ use('class')
 
 // 🚀 Selecione todos os super-heróis com menos de 1.80m de altura. Lembre-se de que essa informação está em centímetros.
 
-// 🚀 db.superheroes.find({ 'aspects.height': { $lt: 180 } })
+// db.superheroes.find({ 'aspects.height': { $lt: 180 } })
 
 // Retorne o total de super-heróis menores que 1.80m.
 
@@ -96,7 +96,7 @@ use('class')
 //     { publisher: 'Marvel Comics' }
 //   ]}
 // )
-json
+
 //  Selecione todos os super-heróis que pesem entre 80kg e 100kg, sejam Humanos ou Mutantes e não sejam publicados pela DC Comics.
 
 // db.superheroes.find(

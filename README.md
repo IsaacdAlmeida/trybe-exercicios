@@ -120,7 +120,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 16: Projeto React
 
-- [x] 16-1: _[Projeto - Jogo de Trivia]()_
+- [x] 16-1: _[Projeto - Jogo de Trivia](https://github.com/IsaacdAlmeida/Trivia)_
 
 ##### Bloco 17: React & Context API
 
@@ -206,34 +206,26 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 28: Projeto - TFC
 
-- [x] 28-1: _[Projeto - Trybe Futebol Clube]()_
+- [x] 28-1: _[Projeto - Trybe Futebol Clube](https://github.com/IsaacdAlmeida/futebol-clube)_
 
 ##### Bloco 29: Introdução ao MongoDB
 
 - [x] 29-1: _MongoDB - introdução_
 - [x] 29-2: _Filter Operators_
 - [x] 29-3: _Operadores de Consulta_
-- [ ] 29-4: _Update Simples_
-- [ ] 29-5: _Updates Complexos - Arrays_
-- [ ] 29-6: _[Projeto - Commerce]()_
+- [x] 29-4: _Update Simples_
+- [x] 29-5: _Updates Complexos - Arrays_
+- [x] 29-6: _[Projeto - Commerce](https://github.com/IsaacdAlmeida/mongoDB-commerce)_
 
-##### Bloco 30: Projeto
+##### Bloco 30: MongoDB com Node.js e POO
 
-- [ ] 30-1: _[Projeto - Trybeer]()_
+- [ ] 30-1: _Mongoose e arquitetura MSC(camada Model)_
+- [ ] 30-2: _Mongoose e arquitetura MSC (camada Service e Controller)_
+- [ ] 30-3: _[Projeto - Car Shop]()_
 
-##### Bloco 31: Arquitetura de Software
+##### Bloco 31: Projeto - App de delivery
 
-- [ ] 31-1: _Arquitetura - Princípios SOLID_
-- [ ] 31-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 31-3: _Arquitetura de Software - DDD_
-- [ ] 31-4: _Boas práticas na escrita de testes_
-- [ ] 31-3: _[Projeto - API de Blogs]()_
-
-##### Bloco 32: Sockets
-
-- [ ] 32-1: _Sockets - TCP/UDP & NET_
-- [ ] 32-2: _Sockets - Socket.io_
-- [ ] 32-3: _[Projeto - Webchat]()_
+- [ ] 31-3: _[Projeto - App de Delivery]()_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
