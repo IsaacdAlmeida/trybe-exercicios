@@ -219,9 +219,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 30: MongoDB com Node.js e POO
 
-- [ ] 30-1: _Mongoose e arquitetura MSC(camada Model)_
-- [ ] 30-2: _Mongoose e arquitetura MSC (camada Service e Controller)_
-- [ ] 30-3: _[Projeto - Car Shop]()_
+- [x] 30-1: _Mongoose e arquitetura MSC(camada Model)_
+- [x] 30-2: _Mongoose e arquitetura MSC (camada Service e Controller)_
+- [x] 30-3: _[Projeto - Car Shop](https://github.com/IsaacdAlmeida/car-shop)_
 
 ##### Bloco 31: Projeto - App de delivery
 
@@ -229,19 +229,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
-##### Bloco 33: Introdução - Ciência da Computação
+##### Bloco 32: Introdução - Python
 
-- [ ] 33-1: _Arquitetura de Computadores_
-- [ ] 33-2: _Arquitetura de redes_
-- [ ] 33-3: _Redes de computadores, ferramentas e segurança_
-- [ ] 33-4: _[Projeto - Explorando os protocolos]()_
-
-##### Bloco 34: Python
-
-- [ ] 35-1: _Aprendendo Python_
-- [ ] 35-2: _Testes e Excecuções_
-- [ ] 35-3: _Entrada e Saída de dados_
-- [ ] 36-4: _Entrada e Saída de dados_
-- [ ] 35-5: _[Projeto - Tech news]()_
-
-# [...]
+- [ ] 32-1: _Aprendendo Python_
+- [ ] 32-2: _Entrada e Saída de dados_
+- [ ] 32-3: _Testes_
+- [ ] 32-4: _[Projeto - Job Insights]()_
